@@ -3,6 +3,7 @@
 ///n=10
 //[2, 3, 5]
 
+
 function generarPrimos(n) {
 
     if (typeof n === 'number' &&  Number.isInteger(n)) {
@@ -44,3 +45,4 @@ function generarPrimos(n) {
         console.log('Error: ${e.message}');
 
     }
+    //fin del proyecto
